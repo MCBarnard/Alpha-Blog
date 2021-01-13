@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Heroku Demo: https://alphablog97.herokuapp.com/
 
-Things you may want to cover:
+[comment]: <> (This README would normally document whatever steps are necessary to get the)
 
-* Ruby version
+[comment]: <> (application up and running.)
 
-* System dependencies
+[comment]: <> (Things you may want to cover:)
 
-* Configuration
+[comment]: <> (* Ruby version)
 
-* Database creation
+[comment]: <> (* System dependencies)
 
-* Database initialization
+[comment]: <> (* Configuration)
 
-* How to run the test suite
+[comment]: <> (* Database creation)
 
-* Services (job queues, cache servers, search engines, etc.)
+[comment]: <> (* Database initialization)
 
-* Deployment instructions
+[comment]: <> (* How to run the test suite)
 
-* ...
+[comment]: <> (* Services &#40;job queues, cache servers, search engines, etc.&#41;)
+
+[comment]: <> (* Deployment instructions)
+
+[comment]: <> (* ...)
