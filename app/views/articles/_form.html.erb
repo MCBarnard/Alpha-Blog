@@ -1,13 +1,14 @@
-<% if @article.class != NilClass && @article.errors.any? %>
+<% if @article.errors.any? %>
   <h2>The following errors prevented the article from being saved</h2>
   <ul>
-    <% @article.errors.full_messages.each do |message| %>
-      <li><%= message =%></li>
+    <% @article.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
     <% end %>
   </ul>
 <% end %>
 
 <%= form_with(model: @article, local: true) do |f| %>
+
   <p>
     <%= f.label :title %><br/>
     <%= f.text_field :title %>
@@ -21,4 +22,5 @@
   <p>
     <%= f.submit %>
   </p>
-<% end %>
+
+<% end %> 
